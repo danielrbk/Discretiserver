@@ -1,0 +1,81 @@
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\csc.exe
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\vbc.exe
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\Web Client.dll.config
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\Web Client.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\Web Client.pdb
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\obj\Debug\Web Client.dll
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\obj\Debug\Web Client.pdb
+C:\Users\rejabek\Documents\Visual Studio 2015\Projects\Test\Web Client\obj\Debug\Web Client.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\csc.exe
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\vbc.exe
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\Web Client.dll.config
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\Web Client.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\Web Client.pdb
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.dll
+C:\Users\Daniel Rejabek\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.pdb
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\csc.exe
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\vbc.exe
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\Web Client.dll.config
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\Web Client.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\Web Client.pdb
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.csprojResolveAssemblyReference.cache
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.csproj.CoreCompileInputs.cache
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.dll
+C:\Users\redaniel\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.pdb
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\csc.exe
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\vbc.exe
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\Web Client.dll.config
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\Web Client.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\Web Client.pdb
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.csprojResolveAssemblyReference.cache
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.dll
+C:\Users\rejabek\Source\Repos\TD4C-Web\Web Client\obj\Debug\Web Client.pdb

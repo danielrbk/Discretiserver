@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="run_cmd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cmd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="args" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="run_cmdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="run_cmdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="run_cmdSoapIn">
+    <wsdl:part name="parameters" element="tns:run_cmd" />
+  </wsdl:message>
+  <wsdl:message name="run_cmdSoapOut">
+    <wsdl:part name="parameters" element="tns:run_cmdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FileServerSoap">
+    <wsdl:operation name="run_cmd">
+      <wsdl:input message="tns:run_cmdSoapIn" />
+      <wsdl:output message="tns:run_cmdSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FileServerSoap" type="tns:FileServerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="run_cmd">
+      <soap:operation soapAction="http://tempuri.org/run_cmd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FileServerSoap12" type="tns:FileServerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="run_cmd">
+      <soap12:operation soapAction="http://tempuri.org/run_cmd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FileServer">
+    <wsdl:port name="FileServerSoap" binding="tns:FileServerSoap">
+      <soap:address location="http://132.72.64.23/ProgramRunner/FileServer.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FileServerSoap12" binding="tns:FileServerSoap12">
+      <soap12:address location="http://132.72.64.23/ProgramRunner/FileServer.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

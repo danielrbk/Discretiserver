@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="RunTD4C">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fileByteStream" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="documentName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="downloadURL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="abstractionMethod" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="classSeperator" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="binsNumber" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="abstractedSeries" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="datasetName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="vmap" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RunTD4CResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RunTD4CResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RunKarmaLego">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fileByteStream" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="documentName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="downloadURL" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="minVerSup" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="maxGap" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="epsilon" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="useHS" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RunKarmaLegoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RunKarmaLegoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RunTD4CSoapIn">
+    <wsdl:part name="parameters" element="tns:RunTD4C" />
+  </wsdl:message>
+  <wsdl:message name="RunTD4CSoapOut">
+    <wsdl:part name="parameters" element="tns:RunTD4CResponse" />
+  </wsdl:message>
+  <wsdl:message name="RunKarmaLegoSoapIn">
+    <wsdl:part name="parameters" element="tns:RunKarmaLego" />
+  </wsdl:message>
+  <wsdl:message name="RunKarmaLegoSoapOut">
+    <wsdl:part name="parameters" element="tns:RunKarmaLegoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFile" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FileHandlerSoap">
+    <wsdl:operation name="RunTD4C">
+      <wsdl:input message="tns:RunTD4CSoapIn" />
+      <wsdl:output message="tns:RunTD4CSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RunKarmaLego">
+      <wsdl:input message="tns:RunKarmaLegoSoapIn" />
+      <wsdl:output message="tns:RunKarmaLegoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <wsdl:input message="tns:GetFileSoapIn" />
+      <wsdl:output message="tns:GetFileSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FileHandlerSoap" type="tns:FileHandlerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RunTD4C">
+      <soap:operation soapAction="http://tempuri.org/RunTD4C" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunKarmaLego">
+      <soap:operation soapAction="http://tempuri.org/RunKarmaLego" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap:operation soapAction="http://tempuri.org/GetFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FileHandlerSoap12" type="tns:FileHandlerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RunTD4C">
+      <soap12:operation soapAction="http://tempuri.org/RunTD4C" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunKarmaLego">
+      <soap12:operation soapAction="http://tempuri.org/RunKarmaLego" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap12:operation soapAction="http://tempuri.org/GetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FileHandler">
+    <wsdl:port name="FileHandlerSoap" binding="tns:FileHandlerSoap">
+      <soap:address location="http://localhost:11058/FileHandler.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FileHandlerSoap12" binding="tns:FileHandlerSoap12">
+      <soap12:address location="http://localhost:11058/FileHandler.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
